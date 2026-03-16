@@ -4,7 +4,7 @@ A lightweight Chrome extension for anyone who grew up with metric units.
 
 Select any text on a webpage containing a US/Imperial measurement — a small tooltip instantly appears showing the metric equivalent.
 
-![Demo placeholder](<!-- you can add a GIF here later -->)
+![Demo](demo.gif)
 
 ## Supported Units
 
