@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 320px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      background: #111;
+      color: #eee;
+      padding: 16px;
+    }
+
+    h1 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #fff;
+    }
+
+    .subtitle {
+      font-size: 11px;
+      color: #888;
+      margin-bottom: 16px;
+    }
+
+    .section {
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 3px 0;
+      vertical-align: top;
+    }
+
+    td:first-child {
+      width: 45%;
+      color: #bbb;
+    }
+
+    td:last-child {
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .arrow {
+      color: #555;
+      padding: 0 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📐 Unit Converter</h1>
+  <div class="subtitle">Select any text with a US unit — a tooltip appears automatically.</div>
+
+  <div class="section">
+    <div class="section-title">Length</div>
+    <table>
+      <tr><td>1 inch</td><td><span class="arrow">→</span> 2.54 cm</td></tr>
+      <tr><td>1 foot</td><td><span class="arrow">→</span> 0.30 m</td></tr>
+      <tr><td>5′10″</td><td><span class="arrow">→</span> 177.8 cm</td></tr>
+      <tr><td>1 yard</td><td><span class="arrow">→</span> 0.91 m</td></tr>
+      <tr><td>1 mile</td><td><span class="arrow">→</span> 1.61 km</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Weight</div>
+    <table>
+      <tr><td>1 oz</td><td><span class="arrow">→</span> 28.35 g</td></tr>
+      <tr><td>1 lb</td><td><span class="arrow">→</span> 0.45 kg</td></tr>
+      <tr><td>1 ton</td><td><span class="arrow">→</span> 0.91 metric tons</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Temperature</div>
+    <table>
+      <tr><td>32°F</td><td><span class="arrow">→</span> 0°C (freezing)</td></tr>
+      <tr><td>98.6°F</td><td><span class="arrow">→</span> 37°C (body)</td></tr>
+      <tr><td>212°F</td><td><span class="arrow">→</span> 100°C (boiling)</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Volume</div>
+    <table>
+      <tr><td>1 tsp</td><td><span class="arrow">→</span> 4.93 mL</td></tr>
+      <tr><td>1 tbsp</td><td><span class="arrow">→</span> 14.79 mL</td></tr>
+      <tr><td>1 fl oz</td><td><span class="arrow">→</span> 29.57 mL</td></tr>
+      <tr><td>1 cup</td><td><span class="arrow">→</span> 237 mL</td></tr>
+      <tr><td>1 pint</td><td><span class="arrow">→</span> 473 mL</td></tr>
+      <tr><td>1 quart</td><td><span class="arrow">→</span> 0.95 L</td></tr>
+      <tr><td>1 gallon</td><td><span class="arrow">→</span> 3.79 L</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Area</div>
+    <table>
+      <tr><td>1 sq ft</td><td><span class="arrow">→</span> 0.093 m²</td></tr>
+      <tr><td>1 sq yd</td><td><span class="arrow">→</span> 0.836 m²</td></tr>
+      <tr><td>1 acre</td><td><span class="arrow">→</span> 0.405 ha</td></tr>
+      <tr><td>1 sq mile</td><td><span class="arrow">→</span> 2.59 km²</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Speed</div>
+    <table>
+      <tr><td>60 mph</td><td><span class="arrow">→</span> 96.56 km/h</td></tr>
+    </table>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
